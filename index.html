@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <!-- 在head裡面新增title網頁名稱 -->
+  <head>
+    <title>待辦清單</title>
+  </head>
+
+  <!--在body裡面放主體-->
+  <body>
+    <!---新增標題，字體大小使用h2-->
+    <h2>Max的待辦事項清單</h2>
+
+    <!-- 新增輸入格，輸入屬性是文字-->
+    <input type="text" id="myInput" placeholder="新增待辦事項..." />
+
+    <!--輸入格後面新增按鈕，onclick效果為執行newElement函數-->
+    <button id="btn-add">新增</button>
+
+    <!--這邊新增unorder-list，之後新增的代辦事項會跑到這邊裡面-->
+    <ul id="myUL"></ul>
+
+    <!-- 連接到javasecipt-->
+    <script src="/to-do-list.js"></script>
+  </body>
+</html>
